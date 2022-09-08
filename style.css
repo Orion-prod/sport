@@ -1,0 +1,53 @@
+h1 {
+    color: skyblue;
+    text-align: center;
+    font-size: 20vw;
+}
+div.liste {
+    display: flex;
+    justify-content: center;
+}
+
+div.liste ul {
+    display: flex;
+    flex-direction: column;
+}
+
+div.liste ul li {
+    list-style: none;
+    padding: 5vw 20vw;
+    margin: 5vw;
+    background: skyblue;
+    border-radius: 20px;
+}
+
+div.liste ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 10vw;
+}
+
+h2 {
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0 auto;
+    background-color: skyblue;
+    border: 0;
+    padding: 5vw 10vw;
+    border-radius: 20px;
+}
+
+button a {
+    font-size: 10vw;
+    text-decoration: none;
+    color: black;
+}
