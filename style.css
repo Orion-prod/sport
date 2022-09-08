@@ -21,6 +21,12 @@ div.liste ul li {
     border-radius: 20px;
 }
 
+div.liste ul li:active {
+    padding: 7vw 22vw;
+    margin: 3vw;
+    background: lightskyblue;
+}
+
 div.liste ul li a {
     color: black;
     text-decoration: none;
@@ -39,12 +45,18 @@ h2 {
 }
 
 button {
-    margin: 0 auto;
     background-color: skyblue;
     border: 0;
     padding: 5vw 10vw;
     border-radius: 20px;
+    margin: 5vw;
 }
+
+ button:active {
+    padding: 7vw 12vw;
+    margin: 3vw;
+    background: lightskyblue;
+ }
 
 button a {
     font-size: 10vw;
